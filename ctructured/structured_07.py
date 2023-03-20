@@ -4,11 +4,12 @@
 #(подсказка: для получения центральной буквы, найдите длину строки и разделите ее пополам.
 #Для создания результирующий строки используйте срез)
 my_str = input("enter str - ")
-lan_my_str = len(my_str)
-#print(len(my_str)/2)
-index = len(my_str)/2
-first_name = my_str
-print(first_name[index])
+widle_str = my_str[len(my_str) // 2]
+print(widle_str)
+if widle_str == my_str[0]:
+   new_str =my_str[1, -1]
+
+    print(new_str)
 
 
 

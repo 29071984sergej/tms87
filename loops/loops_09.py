@@ -15,5 +15,5 @@ for i in range(n):
     print(arr_1)
     arr.append(arr_1)
 print(arr)
-arr_3 = [[randint(1, 9) for_in range(n)for_in range(n) ]]
+arr_3 = [[randint(1, 9) for_in range(n) for_in range(n)]]
 print(arr_3)

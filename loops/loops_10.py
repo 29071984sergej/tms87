@@ -1,6 +1,8 @@
 #Создать квадратную матрицу размерностью n
 #и заполнить ее случайными значениями. Найти сумму всех элементов матрицы, которые кратны 3.
-from random import randint
+
+result_sum = 0
+for arr_i in arr:from random import randint
 
 n = int(input("enter number - "))
 arr = []
@@ -16,11 +18,9 @@ for arr_i in arr:
     print(arr_i)
     for i in arr_i:
         result_sum += i
-result_sum = 0
-for arr_i in arr:
-    print(arr_i)
+    print(arr_i)  print(
     for i in arr_i:
-        print(i)
+      i)
         if(i % 3) == 0:
             result_sum = 0
         for arr_i in arr:
